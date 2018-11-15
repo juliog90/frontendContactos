@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>GRID</title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="css/style.css" />
+ 
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+       <!-- <script src="js/grid.js"></script>-->
+        <!--metadata-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body onload="init()">
+    <header>
+        <div id="menuicon"><img src=""/></div>
+        <div id="headertext"> Grid </div>
+        <div id="userinfo">
+            <table>
+                <tr>
+                    <td rowspan="2" ><img id="userphoto" src="photos/user.jpg"/></td>
+                    
+                    <td id="username">username</td>
+                    <td rowspan="2">
+                        <button onclick="logout()">
+                        <img src="photos/logout.jpg" />
+                    </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="userrole">role</td>
+                </tr>
+            </table>
+        </div>
+    </header>
+        <div id="content"></div>
+    </body>
+</html>

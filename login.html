@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Login</title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="css/style.css?v1" />
+        <!--Javascript-->
+       
+        <script src="js/login.js"></script>
+        <script src="js/main.js"></script>
+        <!--metadata-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+		<header>
+			<div id="menuicon"><img src=""/></div>
+			<div id="headertext">Contacts</div>
+		</header>
+		<div id="main">
+            <h1>Login</h1>
+            <label >UserName:</label>
+            <input id="username" type="text"/>
+            <label >Password:</label>
+            <input id="password" type="password"/>
+
+            <label id="error" class="labelerror" style="display:none;">Error</label>
+
+            <button onclick="login()">Login</button>
+
+        </div>
+	</body>
+</html>
